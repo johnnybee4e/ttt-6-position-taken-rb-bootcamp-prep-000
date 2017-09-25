@@ -6,4 +6,5 @@ def position_taken?(board, index)
   elsif board[index] == "X" && "O"
     taken = true
   end
+  taken
 end
